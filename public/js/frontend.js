@@ -42,7 +42,7 @@ function grabIp(){
 
 async function grabCity(ip){
     
-    return fetch(`https://ip-api.com/json/${ip}`)
+    return fetch(`https://ipwhois.app/json/${ip}`)
     .then(response => response.json())
     .then(data => {
         return{ 
