@@ -57,7 +57,7 @@ async function grabWeather(){
     const cityOb = await grabCity(ip);
     const city = cityOb.city;
 
-    const response = await fetch(`/weather?city=${city}`);
+    const response = await fetch(`https://offhand-lite.onrender.com/weather?city=${city}`);
     const data = await response.json();
     const main = data.main;
     const tempF = Math.round(main.temp);
