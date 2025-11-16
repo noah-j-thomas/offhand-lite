@@ -1,0 +1,22 @@
+@font-face{
+    src:url("fonts/consolas.ttf");
+    font-family: "Consolas";
+}
+
+#clock{
+    font-family: Consolas;
+    font-size: xx-large;
+    text-align: right;
+}
+
+#calendar{
+    font-family: Consolas;
+    font-size: x-large;
+    text-align: right;
+}
+
+#weather{
+    font-family: Consolas;
+    font-size: x-large;
+    text-align: right;
+}
